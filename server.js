@@ -36,6 +36,8 @@ const MODEL_MAPPING = {
   'llama-4-maverick': 'meta/llama-4-maverick-17b-128e-instruct',
   'mistral-small-4': 'mistralai/mistral-small-4',
   'nemotron-super-120': 'nvidia/nemotron-3-super-120b-a12b',
+  'qwen-3.5-flagship': 'qwen/qwen3.5-397b-a17b',
+  'qwen-3.5-fast': 'qwen/qwen3.5-122b-a10b'
 };
 
 // Health check endpoint
