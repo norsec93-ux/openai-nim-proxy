@@ -29,7 +29,7 @@ const MODEL_MAPPING = {
   'gpt-4o-mini': 'deepseek-ai/deepseek-v3.2',
   'claude-3-opus': 'openai/gpt-oss-120b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
-  'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking' 
+  'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking', 
   'nemotron-super': 'nvidia/nemotron-3-super-120b-a12b',
   'mistral-large-3': 'mistralai/mistral-large-3',
   'llama-405b-rp': 'meta/llama-3.1-405b-instruct',
@@ -37,8 +37,13 @@ const MODEL_MAPPING = {
   'mistral-small-4': 'mistralai/mistral-small-4',
   'nemotron-super-120': 'nvidia/nemotron-3-super-120b-a12b',
   'qwen-3.5-flagship': 'qwen/qwen3.5-397b-a17b',
-  'qwen-3.5-fast': 'qwen/qwen3.5-122b-a10b'
+  'qwen-3.5-fast': 'qwen/qwen3.5-122b-a10b',
+  'nemotron-70b-rp': 'nvidia/llama-3.1-nemotron-70b-instruct',
+  'llama-3.3-70b': 'meta/llama-3.3-70b-instruct',
+  'nemotron-4-340b': 'nvidia/nemotron-4-340b-instruct',
+  'command-r-plus': 'cohere/command-r-plus-08-2024'
 };
+
 
 // Health check endpoint
 app.get('/health', (req, res) => {
