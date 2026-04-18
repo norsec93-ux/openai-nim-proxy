@@ -38,7 +38,7 @@ const MODEL_MAPPING = {
   'nemotron-super-120': 'nvidia/nemotron-3-super-120b-a12b',
   'qwen-3.5-flagship': 'qwen/qwen3.5-397b-a17b',
   'qwen-3.5-fast': 'qwen/qwen3.5-122b-a10b',
-  'o1': 'nvidia/llama-3.1-nemotron-70b-instruct',
+  'o1': 'z-ai/glm-5.1',
   'gpt-5.4-nano': 'meta/llama-3.3-70b-instruct',
   'gpt-5.4': 'nvidia/nemotron-4-340b-instruct',
   'gpt-5.4-mini': 'cohere/command-r-plus-08-2024'
