@@ -41,7 +41,11 @@ const MODEL_MAPPING = {
   'o1': 'z-ai/glm-5.1',
   'gpt-5.4-nano': 'meta/llama-3.3-70b-instruct',
   'gpt-5.4': 'nvidia/nemotron-4-340b-instruct',
-  'gpt-5.4-mini': 'cohere/command-r-plus-08-2024'
+  'gpt-5.4-mini': 'cohere/command-r-plus-08-2024',
+  'o1-preview': 'minimaxai/minimax-m2.7',
+  'o3': 'nvidia/nemotron-3-super-120b-a12b',
+  'o3-mini': 'deepseek-ai/deepseek-v4-flash',
+  'o4-mini': 'mistralai/mistral-medium-3.5-128b',
 };
 
 
